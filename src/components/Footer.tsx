@@ -28,7 +28,7 @@ const Footer = () => {
         </div>
       </div>
       {/* right */}
-      <div className='md:w-[80%] md:flex-row flex-col flex justify-end text-white md:gap-14 mt-7 md:mt-0'>
+      <div className='md:w-[80%] md:flex-row flex-col gap-5 flex justify-end text-white md:gap-14 mt-7 md:mt-0'>
     {/* pages */}
         <div  className='flex flex-col gap-4'>
           <div>
