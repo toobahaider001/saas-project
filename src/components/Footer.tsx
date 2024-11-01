@@ -30,7 +30,7 @@ const Footer = () => {
       {/* right */}
       <div className='md:w-[80%] md:flex-row flex-col flex justify-end text-white md:gap-14 mt-7 md:mt-0'>
     {/* pages */}
-        <div>
+        <div  className='flex flex-col gap-4'>
           <div>
             <h2>Pages</h2>
           </div>
@@ -45,7 +45,7 @@ const Footer = () => {
           </div>
         </div>
         {/* 2nd */}
-        <div>
+        <div  className='flex flex-col gap-4'>
           <div className='mt-12 text-sm font-light text-zinc-400'>
             <h4>Features</h4>
             <h4>Careers</h4>
@@ -56,11 +56,11 @@ const Footer = () => {
           </div>
         </div>
         {/* utility */}
-        <div>
+        <div className='flex flex-col gap-4'>
           <div>
             <h2>Utility Pages</h2>
           </div>
-          <div className='mt-6 text-sm font-light text-zinc-400'>
+          <div className='text-sm font-light text-zinc-400'>
             <h4>Style guide</h4>
             <h4>Password protected</h4>
             <h4>404 not found</h4>

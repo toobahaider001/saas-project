@@ -6,7 +6,7 @@ const Features = () => {
   return (
     <div className='w-full flex flex-col items-center md:py-10 gap-14 py-12'>
         {/* text */}
-        <div className='md:flex justify-between md:px-14'>
+        <div className='md:flex justify-between text-center md:px-14'>
             <div className='md:w-[70%] w-full'>
                 <h1 className='text-zinc-100 md:text-5xl text-2xl font-medium'>Powerful features to help you <br />manage you all leads </h1>
             </div>
