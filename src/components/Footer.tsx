@@ -34,7 +34,7 @@ const Footer = () => {
           <div>
             <h2>Pages</h2>
           </div>
-          <div className='mt-7'>
+          <div className='mt-7 text-sm font-light text-zinc-400'>
             <h4>Home</h4>
             <h4>About</h4>
             <h4>Contact</h4>
@@ -46,7 +46,7 @@ const Footer = () => {
         </div>
         {/* 2nd */}
         <div>
-          <div className='mt-12'>
+          <div className='mt-12 text-sm font-light text-zinc-400'>
             <h4>Features</h4>
             <h4>Careers</h4>
             <h4>Careers Single</h4>
@@ -60,7 +60,7 @@ const Footer = () => {
           <div>
             <h2>Utility Pages</h2>
           </div>
-          <div className='mt-6'>
+          <div className='mt-6 text-sm font-light text-zinc-400'>
             <h4>Style guide</h4>
             <h4>Password protected</h4>
             <h4>404 not found</h4>
