@@ -12,7 +12,7 @@ const Featurecard:React.FC<featureCardprops> = ({
 }
 ) => {
   return (
-    <div className='md:w-[25vw] w-[250px] p-4 md:h-[15vw] border-[0.5px]  border-gray-400/25 gap-2 rounded bg-blue-950/50 md:flex flex-col '>
+    <div className='md:w-[25vw] w-[250px] p-4 md:h-[15vw] hover:scale-110 transition-transform border-[0.5px]  border-gray-400/25 gap-2 rounded bg-blue-950/50 md:flex flex-col '>
         {/* icons */}
         <div>{icon}</div>
         {/* title */}

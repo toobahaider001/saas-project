@@ -1,6 +1,7 @@
 import React from 'react'
 import Logo from './Logo'
 import Button from './Button'
+import Link from 'next/link'
 
 const Header = () => {
   return (
@@ -9,11 +10,9 @@ const Header = () => {
         <Logo />
       </div>
       <div className=' hidden md:flex gap-4 text-zinc-300 font-light text-sm '>
-      <h4>Home</h4>
-      <h4>About</h4>
-      <h4>Pricing</h4>
-      <h4>Features</h4>
-      <h4>Blog</h4>
+      <Link href={"/"}>Home</Link>
+      <Link href={"/features"}>features</Link>
+      <Link href={"/contact"}>Contact</Link>
       </div>
       <div>
         <Button text='Get a demo' />
