@@ -22,8 +22,8 @@ const Header = () => {
         <Link href="/" className="text-lg text-white">
           Home
         </Link>
-        <Link href="/about" className="text-lg text-white">
-          About
+        <Link href="/features" className="text-lg text-white">
+          Features
         </Link>
         <Link href="/contact" className="text-lg text-white">
           Contact
@@ -49,15 +49,15 @@ const Header = () => {
 
       {/* Menu for Small Screens */}
       <div
-        className={`absolute top-14 right-4 bg-shadeblue shadow-md mt- rounded-md h-[1000px] w-[300px] p-4 space-y-2 transition-all duration-1000 md:hidden ${
+        className={`absolute top-14 right-4 bg-shadeblue shadow-md km mt- rounded-md h-[1000px] w-[300px] p-4 space-y-2 transition-all duration-1000 md:hidden ${
           isMenuOpen ? 'block' : 'hidden'
         }`}
       >
         <Link href="/" className="block px-4 py-2 text-gray-700 hover:bg-gray-200">
           Home
         </Link>
-        <Link href="/about" className="block px-4 py-2 text-gray-700 hover:bg-gray-200">
-          About
+        <Link href="/features" className="block px-4 py-2 text-gray-700 hover:bg-gray-200">
+          Features
         </Link>
         <Link href="/contact" className="block px-4 py-2 text-gray-700 hover:bg-gray-200">
           Contact
